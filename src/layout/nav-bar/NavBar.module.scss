@@ -1,0 +1,30 @@
+.container{
+  flex: 20% 1;
+  background: #cecece;
+  padding: 10px 10px;
+  .list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .link{
+      display:block;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #262626;
+      background: #fff9f9;
+      &:hover{
+        background: #e0a2a2;
+        color: #fff9f9;
+      }
+    }
+    .active{
+      background: indianred;
+      color: #fff9f9;
+    }
+  }
+}
