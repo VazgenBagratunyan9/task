@@ -24,7 +24,7 @@ const Cats = (props)=>{
         if(categories.length){
             const ID = categories.filter(item=>item.name === urlCategory)[0].id
             setCategoryID(ID)
-            dispatch(getCatsData(categoryID,page))
+            dispatch(getCatsData(categoryID,1))
         }
     },[urlCategory,categories])
 

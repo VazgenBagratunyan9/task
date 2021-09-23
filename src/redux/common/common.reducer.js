@@ -4,7 +4,6 @@ import {filterData} from "./common.util";
 const INITIAL_STATE = {
     categories:[],
     catsData:[],
-    isLoader:false
 }
 
 const commonReducer = (state = INITIAL_STATE , {type,payload}) => {
